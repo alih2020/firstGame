@@ -124,13 +124,13 @@
         <p class="entry-text">At this point, I have put in probably <em>just over 3 hours into learning HTML and CSS</em>.  As of right now, this is not coming as naturally as Javascript did, because there's a lot of random tags to remember.  I suppose maybe if I spend more time on the projects, then the practice will help me memorize these tags.</p>
       </div>
       <div id="javascript-within-html-block" class="entry">
-        <h2 id="javascript-within-html" class="entry-name" style= "color:rgb(0,0,0)">Javascript Within HTML</h2>
+        <h2 id="javascript-within-html" class="entry-name" style= "color:rgb(255,255,255)">Javascript Within HTML</h2>
         <h6 class="entry-date">5-30-19</h6>
         
         <p class="entry-text">After another <em>8 hours</em> spent learning, I have a basic understanding of HTML and CSS and how they work together.  There's still some things I need to master, but I'm slowly getting the hang of it.  I decided to start learning how to implement the Javascript knowledge I have into my HTML scripts.  It was a lot of JS application without any interactivity, but I am not just starting to learn how I could make it interactive.  I bet I can implement ways to add drop-down menus with my current knowledge.</p>
       </div>    
         
-        <h4 id="footer"><a href="#top" style="color:rgb(255,255,255)">Back to Top</a></h4>
+        <h4 id="footer"><a href="#top" style="color:rgb(0,0,0)">Back to Top</a></h4>
     </body>
   
  <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script> 
@@ -145,7 +145,7 @@
     var contentsItems = document.getElementById("contents-items");
     contentsItems.innerHTML = "";
     for (var i = 0; i < entryNames.length;i++) {
-      contentsItems.innerHTML += "<a href=\"#" +entryNames[i].id+ "\"style=\"color:rgb(209, 175, 209)\">" + "<li>" + entryNames[i].innerHTML + "</li>" + "</a>";
+      contentsItems.innerHTML += "<a href=\"#" +entryNames[i].id+ "\"style=\"color:rgb(0,0,0)\">" + "<li>" + entryNames[i].innerHTML + "</li>" + "</a>";
     }
     console.log(contentsItems.innerHTML)
     
