@@ -7,7 +7,7 @@
     
     <style>
       body {
-        background-color: rgb(14,25,27);
+        background-color: rgb(0,0,0);
         color:white;
         margin-bottom: 20px;
       }
@@ -74,10 +74,10 @@
         clear:both;
       }
       em {
-        color:black;
+        color:white;
       }
       strong {
-        color:black;
+        color:white;
       }
       .entry {
         border: 5px ridge rgb(0,0,0);
@@ -111,10 +111,10 @@
         
         <p class="entry-text">It took me <em>a lot of time to grasp this language</em>, but I have mainly learned and completed a couple Javascript courses on Khan Academy and on many similar courses.  At this point, I have no idea how to get my creations from the Khan Academy coding environment out to the web for the world to see.  I decided to learn how to code using HTML and CSS for a better understanding on how to do this.  Below is my first ever game that I have made, which works only with a mouse.  </p>
         
-        <p align="left"> 
+      <center>  <p align="left"> 
         <!--This draws the Canvas on the webpage -->
           <canvas id="mycanvas"></canvas> 
-        </p>
+        </p> </center>
       </div>
       
       <div id="starting-html-and-css-block" class="entry">  
@@ -130,7 +130,7 @@
         <p class="entry-text">After another <em>8 hours</em> spent learning, I have a basic understanding of HTML and CSS and how they work together.  There's still some things I need to master, but I'm slowly getting the hang of it.  I decided to start learning how to implement the Javascript knowledge I have into my HTML scripts.  It was a lot of JS application without any interactivity, but I am not just starting to learn how I could make it interactive.  I bet I can implement ways to add drop-down menus with my current knowledge.</p>
       </div>    
         
-        <h4 id="footer"><a href="#top" style="color:rgb(0,0,0)">Back to Top</a></h4>
+        <h4 id="footer"><a href="#top" style="color:rgb(255,255,255)">Back to Top</a></h4>
     </body>
   
  <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script> 
