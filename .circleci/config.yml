@@ -18,6 +18,12 @@ jobs:
     steps:
       # Checkout the code as the first step.
       - checkout
+      - run:
+          name: Say hello to the World
+          command: echo "Hello World"
+      - run:
+          name: Say bye to the World
+          command: echo "Bye World"    
       
 
 # Invoke jobs via workflows
